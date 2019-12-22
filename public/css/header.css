@@ -1,0 +1,63 @@
+
+body {
+    font: 12px Tahoma, Geneva, sans-serif, "Microsoft Yahei";
+    color: #333;
+}
+.loheader {
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+ .htop {
+    width: 940px;
+    margin: 0 auto;
+    height: 90px;
+}
+
+.hlogo {
+    float: left;
+    width: 180px;
+    height: 60px;
+    line-height: 10em;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.hlogo img {
+    width: 100px;
+    height: 60px;
+}
+.loginRe{
+    font-size: 16px;
+    position: absolute;
+    right:150px;
+    top: 70px;
+}
+.loginRe a{
+    text-decoration: none;
+    color: #3d3d3d;
+    margin: 0;
+}
+.logout{
+   font-size: 16px;
+    position: absolute;
+    right: 100px;
+    top: 70px;
+}
+.logout a{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.submit{
+    position: absolute;
+    top: 70px;
+    right: 400px;
+}
+.submit a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #3d3d3d;
+}

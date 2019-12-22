@@ -1,0 +1,151 @@
+
+main{
+    width: 760px;
+    margin: 0 auto;
+}
+.page_nav {
+    background: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.page_nav a{
+    text-decoration: none;
+}
+
+.page_nav em {
+    cursor: pointer;
+    padding: 0 5px;
+    font-size:14px;
+    color: #ccc;
+}
+
+.page_nav .pageliststy.next_page {
+    width: auto;
+}
+
+.page_nav .next_page {
+    margin-left: 16px;
+    padding: 0 5px;
+}
+
+.page_nav .pageliststy {
+    width: 32px;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+.page_nav .pageliststy.cur_page {
+    color: #fff;
+}
+
+.page_nav .cur_page {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    background: #ca0c16;
+    border-color: #ca0c16;
+}
+
+.page_nav .page_inpt{
+    margin-left: 24px;
+    width: 40px;
+    font-size: 8px;
+    border-radius: 4px;
+    padding:0 8px;
+    text-align: center;
+}
+
+.page_nav .jump{
+    padding:0 5px;
+    font-size: 14px;
+    color:#4d4d4d;
+}
+main ul li{
+    padding: 18px 24px 13px 24px;
+    background: #fff;
+    border-bottom: 1px solid #f4f4f4;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.04);
+    height: 87px;
+}
+main ul li .list_con .title{
+    width:672px ;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
+main ul li .list_con h2{
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+    margin:0 0 4px 0;
+    height: 24px;
+    line-height: 24px;
+}
+main ul li .list_con .title h2 a{
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    color: #3d3d3d;
+}
+main ul li .list_con .title h2 a:hover{
+    color: #ff0000;
+}
+main ul li .list_con .summary{
+    width:672px ;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 4px;
+    color: #8a8a8a;
+    font-size: 14px;
+    text-overflow:ellipsis;
+}
+main ul li .list_con .userbar{
+    width: 672px;
+    height: 24px;
+    line-height: 24px;
+
+}
+main ul li .list_con .userbar div a  img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+main ul li .list_con .userbar .name{
+    margin: 0 20px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #3d3d3d;
+}
+main ul li .list_con .userbar div{
+    float: left;
+}
+main ul li .list_con .userbar .interactive{
+    line-height: 24px;
+    position: absolute;
+    right: 550px;
+}
+main ul li .list_con .userbar .interactive div{
+    float: left;
+    margin-right: 10px;
+}
+
+li a {
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 16px;
+}
+a:hover{
+    color: #ff0000;
+}

@@ -1,0 +1,140 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+body {
+    font: 12px Tahoma, Geneva, sans-serif, "Microsoft Yahei";
+    color: #333;
+}
+
+.loheader {
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.htop {
+    width: 940px;
+    margin: 0 auto;
+    height: 90px;
+}
+
+.hlogo {
+    float: left;
+    width: 180px;
+    height: 60px;
+    line-height: 10em;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.hlogo img {
+    width: 100px;
+    height: 60px;
+}
+
+#main {
+    width: 940px;
+    height: 552.8px;
+    margin: 0 auto;
+
+}
+
+.bglo {
+    height: 553px;
+    background-color: #fff;
+    /* -webkit-box-shadow: 0 1px 3px rgba(100,100,100,.1); */
+    border-radius: 2px;
+
+    font-family: "Microsoft Yahei", Tahoma, Geneva, sans-serif;
+}
+
+.thed {
+    width: 940px;
+    height: 58px;
+    border-bottom: 1px solid #f8f8f7;
+    position: relative;
+}
+
+.thed h2 {
+    font-weight: normal;
+    font: 18px "Microsoft Yahei", Tahoma, Geneva, sans-serif;
+    width: 200px;
+    position: absolute;
+    left: 32px;
+    line-height: 58px;
+}
+
+.thed span {
+    font: 16px "Microsoft Yahei", Tahoma, Geneva, sans-serif;
+    width: 300px;
+    position: absolute;
+    right: 18px;
+    line-height: 58px;
+    display: block;
+    text-align: right;
+}
+
+.thed span a {
+    color: #3ea000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logibox {
+    width: 610px;
+    height: 464px;
+    margin: 30px 0 0 320px;
+}
+
+.logibox .itm {
+    width: 610px;
+    height: 45px;
+}
+
+.logibox .itm .ipt {
+    float: left;
+    color: #999;
+    height: 45px;
+}
+
+.logibox .itm .ipt span {
+    color: #f00;
+}
+
+.logibox .itm .ipt .wwinct {
+    width: 300px;
+    height: 28px;
+    line-height: 28px;
+    vertical-align: middle;
+    padding: 5px 0px 5px 10px;
+    font-size: 14px;
+    border: 1px solid #deded3;
+    /* margin-bottom: 50px; */
+    background: #fff;
+}
+
+.logibox .iloo {
+    margin-bottom: 30px;
+    width: 610px;
+
+}
+
+.logibox .iptrdz {
+    width: 310px;
+    height: 42px;
+    background: #ec7309;
+    color: #fff;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 42px;
+    font-size: 14px;
+    display: inline-block;
+}
